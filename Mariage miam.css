@@ -1,4 +1,11 @@
 body {
+  background-image: url("fleurs_champs.png"); /* ou le nom exact de ton fichier */
+  background-size: cover;       /* l’image remplit toute la page */
+  background-repeat: no-repeat; /* pas de répétition */
+  background-attachment: fixed; /* le fond reste fixe au scroll */
+  background-position: center;  /* centrée joliment */
+  margin: 0;
+  font-family: 'Georgia', serif;
   font-family: "Poppins", sans-serif;
   background: linear-gradient(180deg, #fffaf6 0%, #fdf8f5 100%);
   color: #444;
@@ -91,3 +98,4 @@ footer {
   color: #777;
   margin-top: 30px;
 }
+
