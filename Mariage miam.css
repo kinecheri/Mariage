@@ -1,25 +1,26 @@
+/* --- FOND GLOBAL --- */
 body {
-  background-image: url("Image invitation mariage.png"); /* ou le nom exact de ton fichier */
-  background-size: cover;       /* l’image remplit toute la page */
-  background-repeat: no-repeat; /* pas de répétition */
-  background-attachment: fixed; /* le fond reste fixe au scroll */
-  background-position: center;  /* centrée joliment */
+  background: url("Image invitation mariage.png") no-repeat center center fixed;
+  background-size: cover; /* l’image remplit tout l’écran */
   margin: 0;
-  font-family: "Poppins", sans-serif;
   padding: 0;
+  font-family: "Poppins", sans-serif;
   text-align: center;
 }
 
+/* --- VOILE BLANC LÉGER SUR LE TEXTE --- */
 .container {
   max-width: 650px;
   margin: 60px auto;
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.85); /* voile blanc semi-transparent */
   border-radius: 20px;
   box-shadow: 0 10px 25px rgba(0,0,0,0.05);
   overflow: hidden;
   position: relative;
+  backdrop-filter: blur(3px); /* petit effet flou pour plus de douceur */
 }
 
+/* --- TOUCHE PASTEL EN FOND --- */
 .paint-stroke {
   position: absolute;
   top: -40px;
@@ -41,6 +42,7 @@ body {
   background: radial-gradient(circle at center, #e6f8ff, #f0f9ff);
 }
 
+/* --- CONTENU --- */
 .content {
   position: relative;
   z-index: 1;
@@ -54,6 +56,7 @@ body {
   border: 3px solid #f7d5d5;
 }
 
+/* --- TITRES ET TEXTE --- */
 h1 {
   font-family: "Playfair Display", serif;
   font-size: 1.8em;
@@ -67,6 +70,7 @@ p {
   margin: 10px 0;
 }
 
+/* --- BOUTON --- */
 .button {
   display: inline-block;
   margin-top: 25px;
@@ -84,6 +88,7 @@ p {
   transform: scale(1.05);
 }
 
+/* --- FLEURS ET PIED DE PAGE --- */
 .flowers {
   margin-top: 40px;
   opacity: 0.7;
@@ -94,7 +99,4 @@ footer {
   color: #777;
   margin-top: 30px;
 }
-
-
-
 
