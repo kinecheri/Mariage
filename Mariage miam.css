@@ -1,5 +1,5 @@
 body {
-  background-image: url("fleurs_champs.png"); /* ou le nom exact de ton fichier */
+  background-image: url("Image invitation mariage.png"); /* ou le nom exact de ton fichier */
   background-size: cover;       /* l’image remplit toute la page */
   background-repeat: no-repeat; /* pas de répétition */
   background-attachment: fixed; /* le fond reste fixe au scroll */
@@ -94,6 +94,7 @@ footer {
   color: #777;
   margin-top: 30px;
 }
+
 
 
 
