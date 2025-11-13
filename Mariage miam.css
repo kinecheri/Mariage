@@ -6,9 +6,6 @@ body {
   background-position: center;  /* centrée joliment */
   margin: 0;
   font-family: "Poppins", sans-serif;
-  background: linear-gradient(180deg, #fffaf6 0%, #fdf8f5 100%);
-  color: #444;
-  margin: 0;
   padding: 0;
   text-align: center;
 }
@@ -97,5 +94,6 @@ footer {
   color: #777;
   margin-top: 30px;
 }
+
 
 
